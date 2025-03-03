@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact - Designs by Nova</title>
+    <meta charset = "UTF-8">
+    <meta name="description" content="Contact page for Designs by Nova">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Nova, Designs, Nova Designs, Designs by Nova">
+    <meta name="author" content="Ryan Hornsby">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!--Navigation section-->
+    <nav>
+        <div class="nav-container">
+            <div id="logo">
+                <h1>NOVA</h1>
+            </div>
+            <div class="nav-buttons">
+                <ul>
+                    <li><a href="index.html"><button class="nav-button">Home</button></a></li>
+                    <li><a href="portfolio.html"><button class="nav-button">Portfolio</button></a></li>
+                    <li><a href="services.html"><button class="nav-button">Services</button></a></li>
+                    <li><a href="about.html"><button class="nav-button">About</button></a></li>
+                    <li><a href="contact.html"><button class="nav-button">Contact</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Main body-->
+    <main class="contact-main">
+        <div class="contact-container">
+            <form id="contact-form-actual" action="#" method="POST">
+                <div class="contact-heading">
+                    <h1>Let me tell your digital stories</h1>
+                </div>
+                <section class="contact-form">
+                    <div class="contact-form-inputs">                        
+                            <label for ="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName" value = "" placeholder=" Your first name here" required><br>
+                            <label for ="surname">LAST NAME</label>
+                            <input type="text" id="name" name="surname" value = "" placeholder=" Your last name here" required><br>
+                            <label for ="email">EMAIL</label>
+                            <input type="text" id="email" name="email" value = "" placeholder=" Your email here" required pattern=^\w+@\w+\.\w+$>
+                        </form>
+                    </div>
+                    <div class="contact-form-button">
+                        <button class="general-button" type="submit">Submit</button>
+                    </div>
+                </section>
+                <div class="contact-socials">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.x.com/" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
